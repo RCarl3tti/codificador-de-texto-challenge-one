@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Encoder Owl</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="shortcut icon" href="imgs/owl.svg" type="image/x-icon" />
+    
+</head>
+
+<body>
+    <header>
+        <img src="imgs/encoder-logo.svg" alt="Logotipo Encoder Owl" />
+    </header>
+    <main>
+        <section class="conteudo-principal">
+            <textarea class="input-text" id="input-text" cols="30" rows="10" placeholder="Digite seu texto"></textarea>
+            <div class="aviso">
+                <img src="imgs/bi_exclamation-circle-fill.svg" alt="Imagem Exclamação" />
+                <p>Apenas letras minúsculas e sem acento.</p>
+            </div>
+            <div class="botoes">
+                <button id="btn-criptografar" onclick="criptografar()">Criptografar</button>
+                <button id="btn-descriptografar" onclick="descriptografar()">Descriptografar</button>
+            </div>
+        </section>
+        <div class="output" id="output">
+        <div class="div-output">
+        </div>
+        <div class="div-output-vazio">  
+            <img src="imgs/encoder-logo-pb.svg" alt="">
+            <p class="p1-output-vazio">Nenhuma mensagem encontrada</p>
+            <p class="p2-output-vazio">Digite um texto que você deseja <br> criptografar ou descriptografar.</p>
+        </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer-icons">
+        <a href="https://www.instagram.com/carl3tti/" target="_blank"><ion-icon name="logo-instagram" size="large"></ion-icon></a>
+        <a href="https://github.com/RCarl3tti" target="_blank"><ion-icon name="logo-github" size="large"></ion-icon></a>
+        <a href="https://www.linkedin.com/in/renan-carletti/" target="_blank"><ion-icon name="logo-linkedin" size="large"></ion-icon></a>
+        </div>
+        <p class="footer-p">Disigned by: Renan Carletti</p>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+</body>
+
+</html>
